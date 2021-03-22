@@ -16,10 +16,11 @@
 .kami-info {
     text-align: center;
     align-items: center;
-    position: relative;
+    position: absolute;
     top: 40px;
     padding: 2rem;
     height: fit-content;
+    width: fit-content;
 }
 
 .texto {
@@ -28,9 +29,25 @@
 }
 
 .ficha {
-    align-self: flex-end;
     position: absolute;
     top: 40px;
     right: 20px;
     padding-bottom: 80px;
+    height: auto;
+    width: auto;
+    position: absolute;
+}
+
+.dados {
+    position: absolute;
+    left: 30px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    position: absolute;
+}
+
+.texto a:hover {
+    color: var(--azul-escuro);
+    font-size: 110%;
 }
