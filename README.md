@@ -1,2 +1,2 @@
-# aula-04
+# Currículo Web simples
 Trabalho da disciplina de Programação para Web do IFPI
